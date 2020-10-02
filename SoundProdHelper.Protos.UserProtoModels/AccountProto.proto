@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+option csharp_namespace = "SoundProdHelper.Protos.UserProtoModels";
+package AccountPackage;
+
+
+service AccountProtoService {
+	rpc CreateAccount(UserCredentials) returns(OperationResponse);
+	rpc Authenticate(UserCredentials) returns(OperationResponse);
+}
+
+message UserCredentials {
+	string email = 1;
+	string password = 2;
+}
+
+message OperationResponse {
+	string email = 1;
+	string password = 2;
+}

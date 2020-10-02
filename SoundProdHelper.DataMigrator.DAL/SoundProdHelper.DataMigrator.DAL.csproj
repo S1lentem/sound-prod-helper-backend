@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoundProdHelper.DAL.Read\SoundProdHelper.DAL.Read.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.DAL.Write\SoundProdHelper.DAL.Write.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.Domain.Read\SoundProdHelper.Domain.Read.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.Domain.Write\SoundProdHelper.Domain.Write.csproj" />
+  </ItemGroup>
+
+</Project>
