@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoundProdHelper.Common\SoundProdHelper.Common.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.Crypto\SoundProdHelper.Crypto.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.Domain\SoundProdHelper.Domain.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.Infrastructure\SoundProdHelper.Infrastructure.csproj" />
+    <ProjectReference Include="..\SoundProdHelper.UserService.Domain\SoundProdHelper.UserService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
